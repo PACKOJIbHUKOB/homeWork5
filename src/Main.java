@@ -32,6 +32,8 @@ public class Main {
             } else {
                 System.out.println("Установите версию приложения для Android по ссылке");
             }
+        }else {
+            System.out.println("Ваша операционная система не поддерживаеться");
         }
     }
     private static void task3() {
