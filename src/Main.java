@@ -8,10 +8,10 @@ public class Main {
     }
     private static void task1() {
         System.out.println("задача 1");
-        int clientOS = 0;
-        if (clientOS == 0) {
+        int clientOS = 0, iOS =0, android=1;
+        if (clientOS == iOS) {
             System.out.println("Установите версию приложения для iOS по ссылке");
-        } else if (clientOS == 1) {
+        } else if (clientOS == android) {
             System.out.println("Установите версию приложения для Android по ссылке");
         }else {
             System.out.println("Ваша операционная система не поддерживаеться");
@@ -19,14 +19,14 @@ public class Main {
     }
     private static void task2() {
         System.out.println("задача 2");
-        int clientOS = 1, clientDeviceYear = 2015, checkYear = 2015;
-        if (clientOS == 0) {
+        int clientOS = 1, clientDeviceYear = 2015, checkYear = 2015, iOS =0, android=1;
+        if (clientOS == iOS) {
             if (clientDeviceYear < checkYear) {
                 System.out.println("Установите облегченную версию приложения для iOS по ссылке");
             } else {
                 System.out.println("Установите версию приложения для iOS по ссылке");
             }
-        } else if (clientOS == 1) {
+        } else if (clientOS == android) {
             if (clientDeviceYear < checkYear) {
                 System.out.println("Установите облегченную версию приложения для Android по ссылке");
             } else {
